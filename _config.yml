@@ -1,10 +1,13 @@
 port:  5000
 markdown: kramdown
 name: EcoHack Resources
-url: http://rebeccawilliams.us/ecohackresources
+
+baseurl: /ecohackresources
+url: /ecohackresources
+
 description: "Resources for EcoHack"
 encoding: utf-8
-timezone: America/NewYork
+timezone: America/New_York
 navigation:
 - text: Home
   url: /index.html
