@@ -1,9 +1,7 @@
 port:  5000
 markdown: kramdown
 name: EcoHack Resources
-
-baseurl: /ecohackresources
-url: /ecohackresources
+url: http://rebeccawilliams.us/ecohackresources
 
 description: "Resources for EcoHack"
 encoding: utf-8
