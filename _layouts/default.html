@@ -107,26 +107,14 @@
   <body>
     <div class="container">
       <div id='primary-content' class='col-md-10 col-md-offset-1'>
-        <div class="header">
-          <ul class="nav nav-pills pull-right">
-            {% for link in site.navigation %}
-              {% assign current = nil %}
-              {% if page.url == link.url or (page.categories != nil and page.categories.first == link.category) %}
-                {% assign current = 'active' %}
-              {% endif %}
-
-              <li class="{{ current }}">
-                <a href="{{ link.url }}">{{ link.text }}</a>
-              </li>
-            {% endfor %}
-          </ul>
-          <h3 class="text-muted"><a href="/index.html" >Open Gov Hack Night</a></h3>
+        <div class="header"> 
+          <h3 class="text-muted"><a href="/index.html" >EcoHack Resources</a></h3>
         </div>
       
         {{content}}
 
         <div class="footer">
-          <p class='pull-right'>&copy; Open City 2014 | <a href='https://github.com/open-city/open-gov-hack-night'><i class='fa fa-github'></i> Pull requests welcome!</a></p>
+          <p class='pull-right'>&copy; <a href='https://github.com/rebeccawilliams/ecohackresources'><i class='fa fa-github'></i> Pull requests welcome!</a></p>
         </div>
       </div>
     </div> <!-- /container -->
