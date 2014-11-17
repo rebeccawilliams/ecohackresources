@@ -8,4 +8,4 @@ encoding: utf-8
 timezone: America/New_York
 navigation:
 - text: Home
-  url: /index.html
+  url: /ecohackresources
