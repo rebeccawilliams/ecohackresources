@@ -2,10 +2,12 @@ port:  5000
 markdown: kramdown
 name: EcoHack Resources
 url: http://rebeccawilliams.us/ecohackresources
+gems:
+  - jekyll-redirect-from
 
 description: "Resources for EcoHack"
 encoding: utf-8
 timezone: America/New_York
 navigation:
 - text: Home
-  url: /ecohackresources
+//  url: /ecohackresources
